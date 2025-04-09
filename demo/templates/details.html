@@ -1,0 +1,27 @@
+{% extends "base.html" %} {% block ecomerce %}
+
+<section class="maindetails">
+  <div class="row">
+    <h3>this is only for Details</h3>
+    <div class="container">
+      <div class="details">
+        <div class="col-md-4">
+          <img src="/media/{{product.image}}" alt="" />
+
+          <h2 class="text-h2">{{product.product_name}}</h2>
+          <h3>{{product.brand}}</h3>
+          <small>{{product.discount_price}}</small>
+          <small>{{product.selling_price}}</small>
+          <p>{{product.category}}</p>
+          <p>{{product.description}}</p>
+        </div>
+        <div class="button">
+            <a href="{% url 'addCart'%}" class="btn btn-outline-dark">add to cart</a>
+            <a href="" class="btn btn-outline-success">buy now</a>
+          </div>        
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock ecomerce %}

@@ -1,0 +1,74 @@
+{% extends "base.html" %} {% block ecomerce %}
+
+{% comment %} <========== women header start =========> {% endcomment %}
+    <section class="womenheader mt-5">
+        <div class="row">
+            <header class="header">
+        <h3>THIS IS WOMEN'S PAGE</h3>
+                <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="true">
+                <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/static/img/women/pexels1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/static/img/women/pexels4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/static/img/women/pexels5.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button"
+                    data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button"
+                data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</div>
+
+
+
+<p class="text-head w-25" style="position: absolute; top:300px; left: 200px; color: aliceblue; font-size: 20px; ">
+    This product is made from at least 75% sustainable materials, using a blend of both recycled polyester and organic cotton fibres. The blend is at least 10% 
+    recycled fibres or at least 10% organic cotton fibres.
+</p>
+    
+            </header>
+        </div>
+    
+    </section>
+
+
+{% comment %} <=========== women header end =========> {% endcomment %}
+
+<section class="mainwomen">
+    <div class="row">
+
+        <div class="col-md-6  container">
+            {% for i in wm %}
+            <div class="women">
+
+                <img src="/media/{{i.image}}" alt="">
+                <small class="text-danger">{{i.brand}}</small>
+                <small class="text-success ">{{i.product_name}}</small>
+
+                <div class="button">
+
+                    <a href="" class="btn btn-outline-dark">Add to cart</a>
+                    <a href="" class="btn btn-outline-success">Buy Now</a>
+                </div>
+            </div>
+
+
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+
+{% endblock ecomerce %}

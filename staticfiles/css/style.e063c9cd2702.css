@@ -1,0 +1,757 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 20px;
+    /* padding-top: 300px; */
+    width: 100%;
+}
+
+
+/* <=========== navbar start==========> */
+
+.mainnavbar {
+    width: 100%;
+    overflow: hidden;
+    margin-top: -40px;
+}
+.mainnavbar a{
+    margin-left: 30px;
+    width: 100px;
+}
+
+@media(max-width:720px){
+    .mainnavbar{
+        width: 32rem;
+    }
+    .mainnavbar a{
+        width:100%;
+    }
+}
+@media(min-width:420px){
+    .mainnavbar{
+        width: 100%;
+    }
+    .mainnavbar a{
+        width:100%;
+    }
+}
+/* <=========== navbar end ===========> */
+
+
+/* <============ header start ======== > */
+  
+.mainheader {
+    height: 60vh;
+    width: 100%;
+}
+
+.mainheader .header {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainheader .header h2 {
+    position: relative;
+    top: 360px;
+    left: 290px;
+    font-size: 35px;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mainheader .row {
+    margin-top: -10px;
+}
+
+.mainheader .row .header {
+    margin-top: -50px;
+}
+
+.header img {
+    margin-top: 30px;
+    width: 70vw;
+    height: 90vh;
+}
+
+@media(max-width:720px){
+    
+    .mainheader{
+        width: 32rem;
+        margin-top: -40px;
+        
+    }
+    .mainheader .header{
+        width: 100%;
+    }
+    .mainheader .header  h2{
+        width: 100%;
+      
+       
+    }
+    .mainheader .row{
+        width: 100%;
+    }
+    .header img{
+        width: 100%;
+    }
+}
+@media(min-width:420px){
+    .mainheader{
+        width: 100%;
+    }
+    .mainheader .header{
+        width: 100%;
+    }
+    .mainheader .header h2{
+        width: 100%;
+        /* margin-top: -300px; */
+    }
+    .mainheader .row{
+        width: 100%;
+    }
+    .header img{
+        width: 100%;
+    }
+}
+
+/* <============ header end ======== > */
+
+
+/* <============ category start ======== > */
+
+.maincategory {
+    margin-top: 250px;
+    height: 80vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.maincategory .category {
+    display: flex;
+    flex-direction: column;
+}
+
+.maincategory .category .text {
+    margin-left: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: rgb(75, 37, 37)
+}
+
+.maincategory .category .img {
+    width: 10rem;
+}
+
+.maincategory .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.maincategory h3 {
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+.maincategory .owl-carouselowl-theme {
+    width: 100vw;
+}
+
+.maincategory .item {
+    width: 15rem;
+}
+
+.maincategory .img {
+    width: 100%;
+    height: 30vh;
+    align-items: center;
+    object-fit: cover;
+}
+
+.maincategory h5 {
+    justify-content: space-between;
+}
+
+.maincategory .item .text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.maincategory p {
+    align-items: center;
+}
+@media(max-width:720px){
+    .maincategory{
+        width: 32rem;
+        height: 90vh;
+        background-size: cover;
+    }
+    .maincategory .category{
+        width: 100%;
+    }
+    .maincategory .category .text{
+        width: 100%;
+    }
+    .maincategory .category .img{
+        width: 100%;
+    }
+    .maincategory p{
+        width: 100%;
+        font-size: 10px;
+    }
+
+}
+
+
+/* <============ category end ======== > */
+
+
+/* <=============== feature start ============> */
+
+.mainfeature {
+    width: 100%;
+}
+
+.mainfeature .card {
+    margin-top: -300px;
+    background-color: black;
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    width: 60vw;
+    height: 40vh;
+    border-color: aliceblue;
+    margin-left: 280px;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.mainfeature .card-text {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mainfeature .card-header {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mainfeature .card-title {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mainfeature .buttton {
+    width: 100%;
+    border-radius: 40px;
+}
+@media(max-width:720px){
+    .mainfeature{
+        width:32rem;
+        margin-top: 100px;
+        margin-left: -240px;
+        
+    }
+    .mainfeature .card{
+        width: 80%;
+        height: 110vh;
+    }
+}
+
+
+/* <============ feature end========== > */
+
+
+/* <============ cards 2 start===========> */
+
+.maincards2 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.maincards2 img {
+    width: 40vw;
+    margin-left: 290px;
+    margin-top: 360px;
+    border-radius: 40px;
+}
+
+.maincards2 .container {
+    display: flex;
+    gap: 50px;
+}
+
+.maincards2 .cards-img {
+    height: 42vh;
+    object-fit: cover;
+    width: 100%;
+}
+@media(max-width:720px){
+    .maincards2{
+        width:32rem;
+        margin-top: 20px;
+    }
+    .maincards2 img{
+        width: 32rem;
+        margin-left: 60px;
+       
+    }
+}
+
+/* <========== cards 2 end ========>*/
+
+
+/* <========= women cards start===========> */
+
+.women {
+    width: 100%;
+    margin-top: 180px;
+    overflow: hidden;
+}
+
+.women .text-dark {
+    margin-left: 40px;
+    margin-top: 5rem;
+}
+
+.women img {
+    width: 100%;
+    object-fit: cover;
+    height: 30vh;
+}
+@media(max-width: 720px){
+    .women{
+        width: 32rem;
+        margin-top: 200rem;
+    }
+
+}
+
+/* <=========== women cards end============> */
+
+
+/* <============== product start===========> */
+
+.mainproduct {
+    width: 100%;
+    gap: 50px;
+    height: 320vh;
+    margin-top: -200px;
+   
+    /* height: 80vh; */
+}
+
+.mainproduct .card {
+    /* margin-inline: 40px; */
+    height: 30px;
+    width: 300px;
+    gap: 10px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.card{
+    margin-top: -700px;
+}
+.mainproduct small {
+    width: 200px;
+    margin-top: -30px;
+    font-weight: bold;
+    margin-left: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+.mainproduct .card-title{
+    margin-top: -20px;
+}
+
+.mainproduct img {
+    height: 24vh;
+    width: 50%;
+    margin-left: -1rem;
+    /* object-fit: cover; */
+    border-radius: 30px;
+}
+
+
+.mainproduct .text-heading {
+    position: relative;
+    top: 49vh;
+    gap: 30px;
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.mainproduct h5 {
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+}
+
+.product img {
+    width: 100% ! important;
+    height: 30vh ! important;
+}
+
+.card .btns {
+    position: absolute;
+    top: 22vh;
+    display: flex;
+    width: 400px;
+    margin-inline: -80px;
+    left: -100%;
+   
+
+}
+
+.card {
+    position: relative;
+    top: 300px;
+    overflow: hidden;
+    width: 500px;
+    height: 300vh;
+    transition: all 0.5s ease;
+}
+
+.card:hover .btns {
+   left: 100px;
+   transition: all .5s ease;
+}
+
+@media(max-width:720px){
+    .mainproduct{
+        width: 32rem;
+        
+
+       
+    }
+    
+  
+    .mainproduct .text-heading{
+        margin-top: 90px;
+    }
+    
+    .mainproduct .card{
+        /* width: 100%; */
+        height: 0vh;
+        margin-left: 70px; 
+    }
+    .card{
+        position: relative;
+        top: 300px;
+        overflow: hidden;
+        width: 500px;
+        height: 300vh;
+        transition: all 0.5s ease;
+      
+    }
+    .card .btns {
+        width: 100%;
+        position: absolute;
+        top: 22vh;
+        display: flex;
+        width: 400px;
+        margin-inline: -80px;
+        left: -100%;
+    }
+    .card:hover .btns{
+        width: 100%;
+        left: 100px;
+        transition: all .5s ease;
+    }
+}
+
+
+/* <=========== product end ========== > */
+
+
+/* <============= footer start =========== > */
+
+.mainfooter {
+    margin-top: 80px;
+}
+
+.mainfooter li {
+    color: aliceblue;
+}
+
+
+/* <============= footer end =========== > */
+
+
+/*<============= mens start =======> */
+
+.mens {
+    height: 0%;
+    overflow: hidden;
+}
+
+.mens .mainmens {
+    border: 2px solid black;
+    width: 430px;
+    margin-left: 100px;
+    height: 30vh;
+    padding: 20px;
+    margin-top: 90px;
+    gap: 30px;
+}
+
+.mens img {
+    width: 100px;
+    height: 20vh;
+}
+
+.mensheader h3 {
+     /* align-items: center; */
+   margin-top: 30px;
+  
+   text-shadow: 2px 2px salmon;
+    margin-left: 30px;
+}
+
+.mens small {
+    display: flex;
+    margin-left: 120px;
+    margin-top: -80px;
+    font-size: 20px;
+}
+
+.mens .button {
+    margin-top: 80px;
+    margin-left: 120px;
+}
+
+
+/* <========== mens end =========== > */
+
+/* <============== camera start ===========> */
+.camera {
+    height: 0%;
+    overflow: hidden;
+}
+
+
+.camera .maincamera {
+    border: 2px solid black;
+    width: 470px;
+    margin-left: 400px;
+    height: 40vh;
+    
+    padding: 20px;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.camera img {
+    width: 10rem;
+    height: 30vh;
+}
+
+.cameraheader h3 {
+    /* align-items: center; */
+   margin-top: 30px;
+  
+   text-shadow: 2px 2px salmon;
+    margin-left: 30px;
+}
+
+.camera small {
+    display: flex;
+    margin-left: 190px;
+    margin-top: -100px;
+    font-size: 20px;
+}
+
+.camera .button {
+    margin-top: 80px;
+    margin-left: 180px;
+}
+
+/* <=========== camera end ========> */
+
+
+/* <=========== shoes start =========> */
+
+.shoes {
+    overflow: hidden;
+}
+
+.shoes .mainshoes {
+    border: 2px solid black;
+    width: 490px;
+    margin-left: 200px;
+    height: 30vh;
+    margin-top: 100px;
+}
+
+.shoes img {
+    width: 140px;
+    height: 20vh;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.shoes small {
+    display: flex;
+    margin-left: 180px;
+    margin-top: -80px;
+    font-size: 20px;
+}
+.shoesheader h3{
+         /* align-items: center; */
+   margin-top: 30px;
+  
+   text-shadow: 2px 2px salmon;
+    margin-left: 100px;
+}
+.shoes p {
+    margin-left: 30px;
+}
+
+.shoes .button {
+    margin-left: 180px;
+    margin-top: 60px;
+}
+
+
+/* <============ shoes end ==========> */
+
+
+/* <========== details start ===========> */
+
+.maindetails {
+    width: 100%;
+    overflow: hidden;
+}
+
+.maindetails .details {
+    /* border: 2px solid black; */
+    margin-top: 90px;
+    width: 55rem;
+    height: 180vh;
+    margin-left: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .maindetails .container {
+    display: flex;
+} */
+
+.maindetails img {
+    display: flex;
+    width: 15rem;
+    height: 60vh;
+    margin:1rem;
+}
+
+.maindetails h3 {
+    margin-left: 20rem;
+    margin-top: 2rem;
+    color: rgb(105, 103, 103);
+}
+.maindetails .text-h2 {
+    margin-top: -22rem;
+    width: 300px;
+    margin-left: 20rem;
+    color: goldenrod;
+  
+}
+.maindetails small{
+    margin-left: 20rem;
+    color: rgb(202, 64, 64);
+    font-size: 1rem;
+    margin-top: 7rem;
+    font-weight: bold;
+}
+.maindetails p {
+    margin-left: 20rem;
+    margin-top: 2rem;
+    width: 30rem;
+    color: rgb(88, 86, 86);
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.maindetails .button {
+    margin-left: 20rem;
+    margin-top: 5rem;
+}
+
+
+/* <========== details =========== > */
+
+
+/* <========== women start =========== > */
+
+.mainwomen {
+    margin: 0%;
+    padding: 0%;
+}
+
+.mainwomen .women {
+    border: 2px solid black;
+    width: 420px;
+    margin-top: 90px;
+    height: 30vh;
+    margin-left: 100px;
+}
+
+.mainwomen img {
+    width: 70px;
+    height: 20vh;
+    margin-top: 30px;
+    margin-left: 10px;
+    object-fit: cover;
+}
+.womenheader h3{
+    /* align-items: center; */
+margin-top: 30px;
+
+text-shadow: 2px 2px salmon;
+margin-left: 60px;
+}
+.mainwomen p {
+    width: 800px;
+}
+
+.mainwomen small {
+    display: flex;
+    margin-left: 120px;
+    margin-top: -80px;
+    font-size: 20px;
+}
+
+.mainwomen .button {
+    margin-top: 80px;
+    margin-left: 110px;
+}
+/* <=========== mainsearch start ==============> */
+.mainsearch{
+    width: 100%;
+}
+.mainsearch .card{
+    height: 70vh;
+    position: relative;
+    top: -120px;
+    left: 390px;
+    margin-top: 240px;
+    gap: 10px;
+    width: 18rem;
+}
+.mainsearch img{
+    object-fit: cover;
+    height: 45vh;
+    width: 18rem;
+    padding: 8px;
+}
+
+
+
+/* <=========== mainsearch end ==============> */
