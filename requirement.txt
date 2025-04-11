@@ -1,4 +1,3 @@
 django
 pillow
 whitenoise
-pip install django-tinymce==3.6.1
