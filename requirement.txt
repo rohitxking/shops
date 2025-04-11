@@ -1,4 +1,4 @@
 django
 pillow
 whitenoise
-pip install django-tinymce
+tinymce
